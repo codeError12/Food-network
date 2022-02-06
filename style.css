@@ -1,0 +1,70 @@
+.nav_design{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.nav_design a{
+text-decoration: none;
+color: black;
+text-align: center;
+color: beige;
+margin-right: 10px;
+}
+.navigation{
+display: flex;
+}
+
+.top-header{
+    background-image: url(images/top-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo-design{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 15px 5px 5% 6%;
+}
+
+.bottom-text{
+    /* display: block; */
+    text-transform: capitalize;
+    color: rgba(255, 228, 196, 0.527);
+    /* margin-left:10px; */
+}
+
+.text_design{
+    font-size:10px;
+}
+.half-width{
+width: 45%;
+padding: 10px;
+}
+
+.food-part{
+    display: flex;
+}
+.img-design{
+    width: 100%;
+}
+.order_btn{
+    background-image: linear-gradient(salmon,orange);
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+}
+.second-part{
+    margin-top: 20px;
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
