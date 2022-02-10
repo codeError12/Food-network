@@ -68,3 +68,36 @@ padding: 10px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.card{
+    width: 300px;
+    margin: 15px;
+    box-shadow: 6px 12px 10px black;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20px;
+/* padding-inline-end: 20px; */
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    background-color: brown;
+}
+.hover_img:hover{
+width: 350px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .card-container{
+       flex-wrap: wrap;
+    }
+  }
+/* @media screen and (max-width: 920px) {
+    .card-container{
+       flex-wrap: wrap;
+    }
+  } */
